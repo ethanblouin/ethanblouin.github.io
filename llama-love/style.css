@@ -54,16 +54,22 @@ table {
 /* END RESET */
 
 
-llama2 {float:left;
-	padding:10px
+
+
+#leftarticle {float:left;
+	padding:10px;
 	margin:10px;
+	width:200px;
 }
 
-h1 { 
+h1 {
+	color:black;
 	font-family;Helvetica bold 10px;
 	}
 
-
+h2 {
+	font-family:Helvetica 10px grey;
+}
 
 
 
