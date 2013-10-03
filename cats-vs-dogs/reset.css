@@ -74,3 +74,33 @@ html[xmlns] .clearfix { display: block; }
 * html .clearfix { height: 1%; }
 
 
+
+/***END RESET***/
+
+p { color:black;
+	font-family:helvetica;
+	font-size:14px;}
+
+
+h1 { background-color:white;
+	color:white;
+	font-family:Helvetica;
+	font-size:20px;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -55,25 +55,33 @@ table {
 
 
 
-
-#leftarticle {float:left;
-	padding:10px;
+article
+	{float:left;
+	padding:150px 10px 10px 10px;
 	margin:10px;
-	width:200px;
+	width:400px;
 }
+
+p {
+	color:black;
+	font-family:helvetica;
+	font-size:12px;
+	}
+
 
 h1 {
 	color:black;
-	font-family;Helvetica bold 10px;
-	}
+	font-family:helvetica, 20px;
+	font-weight:bold;}
 
-h2 {
-	font-family:Helvetica 10px grey;
+h2 {color:grey;
+	font-family:helvetica;
+	font-size:10px;
 }
 
-
-
-
+img {float:left;
+	padding:0px, 10px, 10px, 10px;
+	margin:10px;}
 
 
 
