@@ -56,10 +56,20 @@ table {
 
 
 
+li
+	{font-family:georgia;
+		font-size:12px;
+		font-weight:italics;
+			}
 
-h1 {color:blue;}
-
-
+h1
+	{color:white;
+	font-weight:bold;
+	font-size:18px;
+	font-family:helvetica;
+	background-color:black
+	padding:10px;
+	margin:5px;}
 
 
 
