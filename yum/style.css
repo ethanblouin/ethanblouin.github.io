@@ -52,10 +52,10 @@ table {
 body
 	{background-color:beige;}
 
-li
+ul
 	{font-family:georgia;
 		font-size:12px;
-		font-weight:italics;
+		font-weight:italic;
 			}
 
 h1

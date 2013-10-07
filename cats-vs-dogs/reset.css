@@ -78,6 +78,16 @@ html[xmlns] .clearfix { display: block; }
 /***END RESET***/
 
 
+#site-header h1 a {
+		display:block
+		width:400px;
+		height:200px;
+		background:images/dogvscat-logo.gif;
+		text-indent:-9999px;
+		}
+
+
+
 article
 	{float:left;
 	padding:0px 10px 10px 10px;
@@ -85,11 +95,13 @@ article
 	width:400px;
 }
 
+
+
 li {
     list-style:none;
     float:left;
-    margin:10px;
-    padding:7px 14px;
+    margin:5px;
+    padding:5px;
     color:black;
     text-transform:uppercase;
     font-family:georgia;
@@ -102,9 +114,8 @@ p {
 	}
 
 
-h1 {
-	color:black;
-	font-family:helvetica, 20px;
+h1 {color:black;
+	font-family:helvetica;
 	font-weight:bold;}
 
 h2 {color:black;
@@ -113,8 +124,7 @@ h2 {color:black;
 	font-size:14px;
 }
 
-img {float:left;
-	padding:0px, 10px, 10px, 10px;
+img {padding:5px;
 	margin:10px;}
 
 a {color:black;
@@ -127,9 +137,6 @@ h4	{
 	font-family:helvetica;
 	font-size:12px;}
 
-
-
-
-
+footer {clear:both;}
 
 
