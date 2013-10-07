@@ -86,13 +86,14 @@ html[xmlns] .clearfix { display: block; }
 		text-indent:-9999px;
 		}
 
-
+nav {		height:80px;
+}
 
 article
 	{float:left;
 	padding:0px 10px 10px 10px;
 	margin:10px;
-	width:400px;
+	width:300px;
 }
 
 
