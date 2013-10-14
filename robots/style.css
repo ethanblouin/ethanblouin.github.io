@@ -69,36 +69,33 @@ h1#top-nav
 	{float:right;}
 
 
-h1.technique-two {
-  width: 2350px; height: 75px;
-  background: url("images/header-image.jpg") top right;
-  margin: 0 0 0 -2000px;
-}
 
 
 #main-menu
-	{color:white;
+		{color:white;
 		font-family:helvetica;
 		background-color:#966F33;
-		padding:10px 500px 10px 10px;
+		padding:10px 10px 10px 10px;
 		text-decoration:none;
 
 	}
 
 
-
+.icons
+	{width:20px;}
 
 li {
     list-style:none;
     float:left;
     margin:5px;
     padding:5px;
-    color:black;
+    color:white;
     text-transform:uppercase;
     font-family:helvetica;
   }
 
-#sidebar {float:right;}
+#sidebar {float:right;
+		  width:300px;}
 
 
 
@@ -134,7 +131,6 @@ h4	{
 	font-size:12px;}
 
 #footer-wrapper {
-		float:right;
 		clear:both;}
 
 article {padding:150px 200px 50px 200px;
