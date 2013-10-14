@@ -54,6 +54,10 @@ table {
 /* END RESET */
 
 
+header
+	{float:left;
+	 background-color:#F5F5DC;}
+
 
 article
 	{float:left;
@@ -82,8 +86,6 @@ h2 {color:grey;
 img {float:left;
 	padding:0px, 10px, 10px, 10px;
 	margin:10px;}
-
-
 
 
 
