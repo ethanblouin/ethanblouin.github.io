@@ -78,6 +78,12 @@ html[xmlns] .clearfix { display: block; }
 /***END RESET***/
 
 
+#side-header {
+	position:relative;
+	height:200px;
+	background-color:orange;
+}
+
 #site-header h1 a {
 		display:block
 		width:400px;
@@ -85,6 +91,9 @@ html[xmlns] .clearfix { display: block; }
 		background:images/dogvscat-logo.gif;
 		text-indent:-9999px;
 		}
+
+
+
 
 nav {		height:80px;
 }
@@ -95,7 +104,6 @@ article
 	margin:10px;
 	width:300px;
 }
-
 
 
 li {

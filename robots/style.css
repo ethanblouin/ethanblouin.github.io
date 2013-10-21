@@ -54,18 +54,35 @@ table {
 
 /***END RESET***/
 
+#site-header h1 a {}
+
+#top-nav {}
+
+#site-header h1 a {
+	display:block;
+		width:300px;
+		height:80px;
+		background:url(images/logo.png) no-repeat top left;
+		text-indent:-9999px;
+}
+
+#main-menu li 
+	{padding:20px;
+	 
+	}
+
 .robotLogo {
   width: 250px;
   height: 25px;
   background-image: url(logo.png);
   padding:50px 100px 150px 250px;
 }
-h1#logo span {
+h1 #logo span {
   display: none;
 }
 
 
-h1#top-nav
+h1 #top-nav
 	{float:right;}
 
 
