@@ -54,7 +54,23 @@ table {
 
 /***END RESET***/
 
-#site-header h1 a {}
+
+}
+
+
+
+}
+
+#menu-wrapper {
+		background-color:brown;
+}
+
+#site-header {
+	position:relative;
+	height:130px;
+	margin:0 auto;
+	width:960px;
+}
 
 #top-nav {}
 
@@ -67,7 +83,7 @@ table {
 }
 
 #main-menu li 
-	{padding:20px;
+	{
 	 
 	}
 
@@ -116,10 +132,10 @@ li {
 
 
 
-p {
+p {	line-height:1.5em;
 	color:black;
 	font-family:helvetica;
-	font-size:12px;
+	font-size:14px;
 	}
 
 
@@ -149,7 +165,7 @@ h4	{
 
 
 
-#footer-wrapper {color:wood;
+#footer-wrapper {background-color:saddlebrown;
 		clear:both;}
 
 article {padding:150px 200px 50px 200px;
