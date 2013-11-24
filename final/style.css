@@ -47,6 +47,39 @@ table {
 }
 
 
+/***END RESET***/
+
+
+
+nav {
+    display:inline-block;
+    position:relative;
+    padding:10px;
+    float:left;
+    height: 3em;
+    background-color: #848482;
+    width: 100%;
+    z-index: 20;
+    top: 0;
+    opacity: .9;
+    }
+
+
+nav li {
+    list-style:none;
+    float:left;
+    margin:5px;
+    padding:5px;
+    color:black;
+    text-transform:uppercase;
+    font-family:georgia;
+  }
+
+
+
+
+
+
 
 
 
