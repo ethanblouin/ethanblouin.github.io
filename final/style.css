@@ -53,7 +53,7 @@ table {
 
 nav {
     display:inline-block;
-    position:relative;
+    position:fixed;
     padding:10px;
     float:left;
     height: 3em;
@@ -61,18 +61,24 @@ nav {
     width: 100%;
     z-index: 20;
     top: 0;
-    opacity: .9;
+    opacity: .95;
     }
 
+a {list-style:none;
+    }
+
+p {float:left;
+    padding:10em;}
 
 nav li {
     list-style:none;
     float:left;
     margin:5px;
     padding:5px;
-    color:black;
+    color:white;
     text-transform:uppercase;
-    font-family:georgia;
+    font-family:verdana;
+    font-weight:bold;
   }
 
 
@@ -80,24 +86,14 @@ nav li {
 
 
 
+#about p {z-index:15;}
 
 
 
 
 
 
-/***SMOOTH SCHROOLLING***/
-$('a[href*=#]:not([href=#])').click(function() {
-    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') 
-        || location.hostname == this.hostname) {
 
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-           if (target.length) {
-             $('html,body').animate({
-                 scrollTop: target.offset().top
-            }, 1000);
-            return false;
-        }
-    }
-});
+
+
+
