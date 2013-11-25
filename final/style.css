@@ -52,8 +52,7 @@ table {
 
 li img {width: 100%;}
 
-body {margin: 0 auto;
-        width:960px;}
+
 
 nav {
     text-decoration:none;
@@ -90,6 +89,8 @@ a   {text-decoration: none;
 p {float:left;
     padding:5em;
 font-family: 'Open Sans', sans-serif;
+font-size: .5em;
+line-height: 1.5em;
 }
 
 
