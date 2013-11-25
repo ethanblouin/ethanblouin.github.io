@@ -50,13 +50,16 @@ table {
 /***END RESET***/
 
 
+li img {width: 100%;}
+
+
 
 nav {
     display:inline-block;
     position:fixed;
-    padding:10px;
+    padding:7px;
     float:left;
-    height: 3em;
+    height: 1em;
     background-color: #848482;
     width: 100%;
     z-index: 20;
@@ -68,20 +71,23 @@ a {list-style:none;
     }
 
 p {float:left;
-    padding:10em;}
+    padding:5em;}
 
 nav li {
     list-style:none;
     float:left;
-    margin:5px;
-    padding:5px;
+    text-decoration: none;
+    margin:2px;
+    padding:2px;
     color:white;
     text-transform:uppercase;
     font-family:verdana;
     font-weight:bold;
   }
 
-
+#home {width:100%;
+       text-align: center;
+       padding:200px;}
 
 
 
@@ -89,7 +95,7 @@ nav li {
 #about p {z-index:15;}
 
 
-
+#about img {float: left;}
 
 
 
