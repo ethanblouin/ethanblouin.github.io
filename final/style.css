@@ -65,7 +65,7 @@ nav {
     width: 100%;
     z-index: 20;
     top: 0;
-    opacity: .55;
+    opacity: .95;
     }
 
 
@@ -92,9 +92,9 @@ p {float:left;
     padding:5em;}
 
 
-#home {width:100%;
-       text-align: center;
-       padding:200px;}
+#home {margin: 0 auto;
+        width:960px;
+        padding:300px;}
 
 
 
