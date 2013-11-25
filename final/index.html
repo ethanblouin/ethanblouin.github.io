@@ -10,7 +10,17 @@
 
 
 
+ <link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
+<script src="nivo-slider/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+$(window).load(function() {
+    $('#slider').nivoSlider();
+});
 </script>
+
 </head>
 <body>
 
@@ -30,6 +40,8 @@
 
 
 
+
+
 <section id="home">
 <h1>WELCOME</h1>
 </section>
@@ -41,13 +53,10 @@
 
 
 <section id="Print">
-
-
 <div id="slider" class="nivoSlider">
-    <img src="images/print1.jpg" alt="" />
-    <a href="http://dev7studios.com"><img src="images/print2.jpg" alt="" title="#htmlcaption" /></a>
+    <img src="images/print1.jpg" alt="asdf" />
+    <a href="http://dev7studios.com"><img src="images/print2.jpg" alt="adf" title="#htmlcaption" /></a>
     <img src="images/print3.jpg" alt="" title="This is an example of a caption" />
-    <img src="images/print4.jpg" alt="" />
 </div>
 <div id="htmlcaption" class="nivo-html-caption">
     <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
@@ -55,10 +64,12 @@
 
 
 
-		<li><img src="images/printCover.jpg" alt="printCover"> </li>
+		<img src="images/printCover.jpg" alt="printCover"> 
 
-  	</ul>
+
 </section>
+
+
 
 <section id="printCopy">
 	<P> This is where a description of the work I have done regarding each subject matter will be. This description will most likely be short and rely heavily on imagery found within the Jquery slider give a better insight about my experience with each subject. </p>
@@ -118,5 +129,10 @@
 
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript" src="javascript/smoothscroll.js"></script>
+
+
+
+
+
   </body>
 </html>
