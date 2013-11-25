@@ -52,13 +52,14 @@ table {
 
 li img {width: 100%;}
 
-
+body {margin: 0 auto;
+        width:960px;}
 
 nav {
     text-decoration:none;
     display:inline-block;
     position:fixed;
-    padding:7px;
+    padding:10px;
     float:left;
     height: 1em;
     background-color: #848482;
@@ -73,23 +74,23 @@ nav li {
     list-style:none;
     float:left;
     text-decoration: none;
-    margin:2px;
-    padding:2px;
-    color:white;
-    text-transform:uppercase;
-    font-family:verdana;
-    font-weight:bold;
+    margin:0px;
+    padding:7px;
   }
 
 
 
 
 
-a {list-style:none;
+a   {text-decoration: none;
+    font-family: 'Open Sans', sans-serif;
+    color:white;
     }
 
 p {float:left;
-    padding:5em;}
+    padding:5em;
+font-family: 'Open Sans', sans-serif;
+}
 
 
 #home {margin: 0 auto;
