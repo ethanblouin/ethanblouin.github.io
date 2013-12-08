@@ -8,24 +8,27 @@
   <link rel="stylesheet" href="style.css" type="text/css" media="screen" />
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
 
+<link href="jquery.bxslider/jquery.bxslider.css" rel="stylesheet" />
 
 
- <link rel="stylesheet" href="nivo-slider/nivo-slider.css" type="text/css" />
-<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js" type="text/javascript"></script>
-<script src="nivo-slider/jquery.nivo.slider.pack.js" type="text/javascript"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+<script src="jquery.bxslider/jquery.bxslider.min.js"></script>
 
 
-<script type="text/javascript">
-$(window).load(function() {
-    $('#slider').nivoSlider();
+<script>
+$(document).ready(function(){
+  $('.bxslider').bxSlider();
 });
 </script>
+
+
+
 
 </head>
 <body>
 
 
-<section>
+<div id="nav">
 <nav>
 	<ul>
 		<li><a href="#home" class="smoothScroll">Home</a></li>
@@ -36,59 +39,51 @@ $(window).load(function() {
 		<li><a href="#about" class="smoothScroll">About</a></li>
 	</ul>
 </nav>
-</section>
+</div>
 
 
 
 
 
-<section id="home">
-<h1>WELCOME</h1>
-</section>
-
-
-
+<div id="home">
+	<div id="logo">
+	<img src="images/logoComp3.jpg" alt="logo">
+</div>
+	<h1>ETHAN BLOUIN</h1>
+	<h2>Designer</h2>
+</div>
 
 
 
 
 <section id="Print">
-<div id="slider" class="nivoSlider">
-    <img src="images/print1.jpg" alt="asdf" />
-    <a href="http://dev7studios.com"><img src="images/print2.jpg" alt="adf" title="#htmlcaption" /></a>
-    <img src="images/print3.jpg" alt="" title="This is an example of a caption" />
-</div>
-<div id="htmlcaption" class="nivo-html-caption">
-    <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
-</div>		
+
+<ul class="bxslider">
+	  <li><img src="images/printA.jpg" alt="test"/></li>
+	  <li><img src="images/printB.jpg" alt="test2"/></li>
+	  <li><img src="images/printC.jpg" alt="test2"/></li>
+</ul>
 
 
-
-		<ul>
-			<li>
-				<img src="images/printCover.jpg" alt="printCover">
-			</li>
-		</ul> 
-
-
-</section>
-
-
-
-<section id="printCopy">
+<section id="container">
 	<P> This is where a description of the work I have done regarding each subject matter will be. This description will most likely be short and rely heavily on imagery found within the Jquery slider give a better insight about my experience with each subject. </p>
 </section>
 
+
+
+
 <section id="Identity">
 	<ul class="bxslider">
+	  <li><img src="images/identityA.jpg" alt="test"/></li>
+	  <li><img src="images/identityB.jpg" alt="test2"/></li>
+	  <li><img src="images/identityC.jpg" alt="test2"/></li>
 
-		<li><img src="images/identityCover.jpg" alt="identityCover"> </li>
-  		
+	</ul>  		
 
 	</ul>
 </section>
 
-<section id="identityCopy">
+<section id="container">
 	<P> This is where a description of the work I have done regarding each subject matter will be. This description will most likely be short and rely heavily on imagery found within the Jquery slider give a better insight about my experience with each subject. </p>
 </section>
 
@@ -100,13 +95,14 @@ $(window).load(function() {
 
 <section id="Photography">
 	<ul class="bxslider">
-			<li><img src="images/photoCover.jpg" alt="photoCover"> </li>
-
+  		<li><img src="images/photoA.jpg" alt="test"/></li>
+  		<li><img src="images/photoC.jpg" alt="test2"/></li>
 	</ul>
 </section>
 
-<section id="photographyCopy">
-	<P> This is where a description of the work I have done regarding each subject matter will be. This description will most likely be short and rely heavily on imagery found within the Jquery slider give a better insight about my experience with each subject. </p>
+<section id="container">
+	<P> This is where a description of the work I have done regarding each subject matter will be. This description will most likely be short and rely heavily on imagery found within the Jquery slider give a better insight about my experience with each subject.
+</p>
 </section>
 
 
@@ -114,11 +110,13 @@ $(window).load(function() {
 
 
 
-<section id="about">
-		<p> Here there will be a short description of me and my thoughts about design. </p>
+<div id="about">
 
 <img src="images/me123.jpg" alt="Ethan Blouin">
-</section>
+
+		<p> Here there will be a short description of me and my thoughts about design.Here there will be a short description of me and my thoughts about design.Here there will be a short description of me and my thoughts about design.Here there will be a short description of me and my thoughts about design.Here there will be a short description of me and my thoughts about design.Here there will be a short description of me and my thoughts about design.Here there will be a short description of me and my thoughts about design.Here there will be a short description of me and my thoughts about design. </p>
+
+</div>
 
 
 
@@ -131,11 +129,7 @@ $(window).load(function() {
 
 
 
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script type="text/javascript" src="javascript/smoothscroll.js"></script>
-
-
-
 
 
   </body>
